@@ -1,0 +1,34 @@
+# Dependencies
+vendor/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP specific
+*.log
+tokens.json
+oauth_callback.php
+oauth_setup.php
+submit_contact.php
+PHPMailer/
+
+# Build output - keep dist for deployment
+# dist/
+
+# Composer
+composer.phar
+
+# Environment
+.env
+.env.local
+
+# Local Netlify folder
+.netlify

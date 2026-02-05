@@ -1,0 +1,87 @@
+[build]
+  publish = "dist"
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/contact-us.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/industries"
+  to = "/industries.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolios"
+  to = "/portfolios.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200
+
+[[redirects]]
+  from = "/careers"
+  to = "/careers.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms-and-conditions"
+  to = "/terms-and-conditions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cookie-policy"
+  to = "/cookie-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/branding"
+  to = "/branding.html"
+  status = 200
+
+[[redirects]]
+  from = "/digital-marketing1"
+  to = "/digital-marketing1.html"
+  status = 200
+
+[[redirects]]
+  from = "/media-production"
+  to = "/media-production.html"
+  status = 200
+
+[[redirects]]
+  from = "/web-development"
+  to = "/web-development.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio/*"
+  to = "/portfolio/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/service/*"
+  to = "/service/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/industry/*"
+  to = "/industry/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
