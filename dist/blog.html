@@ -2,25 +2,26 @@
 <html lang="en">
 
 <head>
-
-    <title>Ardenatech - Marketing made simple</title>
+    <title>Journal - Ardena | Marketing Insights & Trends</title>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
 
-<!-- bootstrap grid css -->
+<!-- Critical CSS - bootstrap grid -->
 <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css">
-<!-- font awesome css -->
-<link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
-<!-- swiper css -->
-<link rel="stylesheet" href="/css/plugins/swiper.min.css">
-<!-- fancybox css -->
-<link rel="stylesheet" href="/css/plugins/fancybox.min.css">
-<!-- ashley scss -->
+<!-- Main styles -->
 <link rel="stylesheet" href="/css/style.css">
-<!-- page name -->
-</head>
+<!-- Deferred CSS - font awesome -->
+<link rel="preload" href="/css/plugins/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/font-awesome.min.css"></noscript>
+<!-- Deferred CSS - swiper -->
+<link rel="preload" href="/css/plugins/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/swiper.min.css"></noscript>
+<!-- Deferred CSS - fancybox -->
+<link rel="preload" href="/css/plugins/fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/fancybox.min.css"></noscript>
+<!-- page name --></head>
 
 <body>
 
@@ -65,7 +66,7 @@
 <div class="mil-menu-frame">
     <!-- frame clone -->
     <div class="mil-frame-top ">
-        <a href="index.php" class="mil-logo">ARDENA.</a>
+        <a href="/" class="mil-logo">ARDENA.</a>
         <div class="mil-menu-btn">
             <span></span>
         </div>
@@ -151,6 +152,9 @@
                             </li>
                             <li class="mil-has-children">
                                 <a href="/contact-us">Contact</a>
+                            </li>
+                            <li class="mil-has-children">
+                                <a href="/marketing-assessment" class="mil-accent">Free Assessment</a>
                             </li>
                         </ul>
                     </nav>
@@ -246,31 +250,46 @@
         <div class="mil-content">
             <div id="swupMain" class="mil-main-transition">
 
-                <!-- 404 -->
-                <div class="mil-404-banner mil-dark-bg">
-                    <!-- <div class="mil-animation-frame">
-                        <div class="mil-animation mil-position-4 mil-scale" data-value-1="9" data-value-2="1.4" style="right: 40%;"></div>
-                    </div> -->
-                    <div class="mi-invert-fix mil-up">
-                        <div class="container">
-                            <div class="mil-404-frame">
-
-                                <div class="mil-scale-frame">
-
-                                    <h1 class="mil-404" data-text="">Coming Soon</h1>
-
-                                </div>
-
-                                <h4 class="mil-404-text mil-dark mil-mb-60">We are working on it to bring it to you</h4>
-                                <a href="index.php" class="mil-button mil-arrow-place">
-                                    <span>Back to homepage</span>
-                                </a>
+                <!-- banner -->
+                <section class="mil-soft-bg">
+                    <div class="container mil-p-120-60">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h1 class="mil-up mil-mb-30">The <span class="mil-thin">Journal</span></h1>
+                                <p class="mil-up">Insights, trends, and strategies in digital marketing, branding, and web development.</p>
                             </div>
-
                         </div>
                     </div>
-                </div>
-                <!-- 404 end -->
+                </section>
+                <!-- banner end -->
+
+                <!-- blog listing -->
+                <section>
+                    <div class="container mil-p-120-60">
+                        <div class="row">
+                                                                                    <div class="col-lg-6">
+                                <a href="/blog-post?slug=welcome-to-ardena-journal" class="mil-blog-card mil-mb-60">
+                                    <div class="mil-cover-frame mil-up">
+                                        <img src="/img/blog/default.jpg" alt="Welcome to Ardena Journal">
+                                    </div>
+                                    <div class="mil-post-descr">
+                                        <div class="mil-labels mil-up mil-mb-30">
+                                            <div class="mil-label mil-upper mil-accent">General</div>
+                                            <div class="mil-label mil-upper">Feb 06 2026</div>
+                                        </div>
+                                        <h4 class="mil-up mil-mb-30">Welcome to Ardena Journal</h4>
+                                        <p class="mil-post-text mil-up mil-mb-30">Discover insights, trends, and strategies in digital marketing, branding, and web development from the Ardena team.</p>
+                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                                                </div>
+                        
+                                            </div>
+                </section>
+                <!-- blog listing end -->
 
                 <!-- hidden elements -->
                 <div class="mil-hidden-elements">

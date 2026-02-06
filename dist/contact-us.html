@@ -8,16 +8,19 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
 
-<!-- bootstrap grid css -->
+<!-- Critical CSS - bootstrap grid -->
 <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css">
-<!-- font awesome css -->
-<link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
-<!-- swiper css -->
-<link rel="stylesheet" href="/css/plugins/swiper.min.css">
-<!-- fancybox css -->
-<link rel="stylesheet" href="/css/plugins/fancybox.min.css">
-<!-- ashley scss -->
+<!-- Main styles -->
 <link rel="stylesheet" href="/css/style.css">
+<!-- Deferred CSS - font awesome -->
+<link rel="preload" href="/css/plugins/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/font-awesome.min.css"></noscript>
+<!-- Deferred CSS - swiper -->
+<link rel="preload" href="/css/plugins/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/swiper.min.css"></noscript>
+<!-- Deferred CSS - fancybox -->
+<link rel="preload" href="/css/plugins/fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/plugins/fancybox.min.css"></noscript>
 <!-- page name --></head>
 
 <body>
@@ -63,7 +66,7 @@
 <div class="mil-menu-frame">
     <!-- frame clone -->
     <div class="mil-frame-top ">
-        <a href="index.php" class="mil-logo">ARDENA.</a>
+        <a href="/" class="mil-logo">ARDENA.</a>
         <div class="mil-menu-btn">
             <span></span>
         </div>
@@ -149,6 +152,9 @@
                             </li>
                             <li class="mil-has-children">
                                 <a href="/contact-us">Contact</a>
+                            </li>
+                            <li class="mil-has-children">
+                                <a href="/marketing-assessment" class="mil-accent">Free Assessment</a>
                             </li>
                         </ul>
                     </nav>
@@ -335,7 +341,7 @@
                     <form name="callback" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="mil-subscribe-form mil-up">
                         <input type="hidden" name="form-name" value="callback">
                         <input type="text" name="phone" placeholder="Enter your Number" required>
-                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
+                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place" aria-label="Submit phone number"></button>
                     </form>
 
                 </div>
@@ -362,6 +368,9 @@
                                     </li>
                                     <li class="mil-up">
                                         <a href="/blog">Journal</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="/marketing-assessment">Free Assessment</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -408,8 +417,8 @@
                     <div class="mil-vert-between">
                         <div class="mil-mb-30">
                             <ul class="mil-social-icons mil-up">
-                                <li><a href="https://www.linkedin.com/company/ardena-technologies/" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://wa.me/918178237744" target="_blank" class="social-icon"> <i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/ardena-technologies/" target="_blank" class="social-icon" aria-label="LinkedIn"> <i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://wa.me/918178237744" target="_blank" class="social-icon" aria-label="WhatsApp"> <i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <p class="mil-light-soft mil-up">© Copyright 2026 - Ardena. All Rights Reserved.</p>
