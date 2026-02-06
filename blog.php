@@ -1,11 +1,26 @@
+<?php
+// Load blogs from JSON
+$blogsFile = __DIR__ . '/content/blogs/blogs.json';
+$blogs = [];
+if (file_exists($blogsFile)) {
+    $data = json_decode(file_get_contents($blogsFile), true);
+    $blogs = array_filter($data['blogs'] ?? [], fn($b) => ($b['status'] ?? 'published') === 'published');
+    usort($blogs, fn($a, $b) => strtotime($b['published_date'] ?? '2000-01-01') - strtotime($a['published_date'] ?? '2000-01-01'));
+}
+
+// Pagination
+$page = max(1, intval($_GET['page'] ?? 1));
+$perPage = 6;
+$total = count($blogs);
+$totalPages = ceil($total / $perPage);
+$blogs = array_slice($blogs, ($page - 1) * $perPage, $perPage);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
-    <title>Ardenatech - Marketing made simple</title>
+    <title>Journal - Ardena | Marketing Insights & Trends</title>
     <?php require_once("includes/header.php") ?>
-
 </head>
 
 <body>
@@ -33,31 +48,73 @@
         <div class="mil-content">
             <div id="swupMain" class="mil-main-transition">
 
-                <!-- 404 -->
-                <div class="mil-404-banner mil-dark-bg">
-                    <!-- <div class="mil-animation-frame">
-                        <div class="mil-animation mil-position-4 mil-scale" data-value-1="9" data-value-2="1.4" style="right: 40%;"></div>
-                    </div> -->
-                    <div class="mi-invert-fix mil-up">
-                        <div class="container">
-                            <div class="mil-404-frame">
-
-                                <div class="mil-scale-frame">
-
-                                    <h1 class="mil-404" data-text="">Coming Soon</h1>
-
-                                </div>
-
-                                <h4 class="mil-404-text mil-dark mil-mb-60">We are working on it to bring it to you</h4>
-                                <a href="index.php" class="mil-button mil-arrow-place">
-                                    <span>Back to homepage</span>
-                                </a>
+                <!-- banner -->
+                <section class="mil-soft-bg">
+                    <div class="container mil-p-120-60">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h1 class="mil-up mil-mb-30">The <span class="mil-thin">Journal</span></h1>
+                                <p class="mil-up">Insights, trends, and strategies in digital marketing, branding, and web development.</p>
                             </div>
-
                         </div>
                     </div>
-                </div>
-                <!-- 404 end -->
+                </section>
+                <!-- banner end -->
+
+                <!-- blog listing -->
+                <section>
+                    <div class="container mil-p-120-60">
+                        <div class="row">
+                            <?php if (empty($blogs)): ?>
+                            <div class="col-12 mil-mb-60">
+                                <div class="mil-center">
+                                    <h4 class="mil-up mil-mb-30">No posts yet</h4>
+                                    <p class="mil-up">Stay tuned for upcoming articles!</p>
+                                </div>
+                            </div>
+                            <?php else: ?>
+                            <?php foreach ($blogs as $blog): ?>
+                            <div class="col-lg-6">
+                                <a href="/blog-post?slug=<?php echo htmlspecialchars($blog['slug']); ?>" class="mil-blog-card mil-mb-60">
+                                    <div class="mil-cover-frame mil-up">
+                                        <img src="<?php echo htmlspecialchars($blog['featured_image']); ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>">
+                                    </div>
+                                    <div class="mil-post-descr">
+                                        <div class="mil-labels mil-up mil-mb-30">
+                                            <div class="mil-label mil-upper mil-accent"><?php echo htmlspecialchars($blog['category']); ?></div>
+                                            <div class="mil-label mil-upper"><?php echo date('M d Y', strtotime($blog['published_date'])); ?></div>
+                                        </div>
+                                        <h4 class="mil-up mil-mb-30"><?php echo htmlspecialchars($blog['title']); ?></h4>
+                                        <p class="mil-post-text mil-up mil-mb-30"><?php echo htmlspecialchars($blog['excerpt']); ?></p>
+                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                            <span>Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <?php endforeach; ?>
+                            <?php endif; ?>
+                        </div>
+                        
+                        <?php if ($totalPages > 1): ?>
+                        <!-- Pagination -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mil-pagination mil-up">
+                                    <?php if ($page > 1): ?>
+                                    <a href="?page=<?php echo $page - 1; ?>" class="mil-button mil-arrow-place"><span>Previous</span></a>
+                                    <?php endif; ?>
+                                    <span class="mil-page-info">Page <?php echo $page; ?> of <?php echo $totalPages; ?></span>
+                                    <?php if ($page < $totalPages): ?>
+                                    <a href="?page=<?php echo $page + 1; ?>" class="mil-button mil-arrow-place"><span>Next</span></a>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endif; ?>
+                    </div>
+                </section>
+                <!-- blog listing end -->
 
                 <!-- hidden elements -->
                 <div class="mil-hidden-elements">

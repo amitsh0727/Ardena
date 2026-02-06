@@ -61,13 +61,13 @@
                         <div class="mil-lines-place"></div>
                         <div class="mil-lines-place mil-lines-long"></div>
 
-                        <!-- Row 1: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
+                        <!-- Row 1: 3 Portraits -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-4">
                                 <a href="/portfolio/tedx-gims" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/flipbook/tedx-gims-cover.jpg" alt="TEDx GIMS">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/flipbook/tedx-gims-cover.png" alt="TEDx GIMS">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
@@ -79,64 +79,25 @@
                                 </a>
                             </div>
                             <div class="col-lg-4">
-                                <a href="https://www.instagram.com/andazdelhi" target="_blank" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-20" data-value-2="0">
+                                <a href="https://www.credlix.com/" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
-                                            <img src="img/portfolio/social-media/Andaz.jpg" alt="Andaz Social Media">
+                                            <img src="img/portfolio/ui-ux/Credlix.png" alt="Credlix UI/UX">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
                                         <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Social Media</div>
+                                            <div class="mil-label mil-upper mil-accent">UI/UX</div>
                                         </div>
-                                        <h4 class="mil-up">Andaz Delhi</h4>
+                                        <h4 class="mil-up">Credlix</h4>
                                     </div>
                                 </a>
                             </div>
-                        </div>
-
-                        <!-- Row 2: Portrait + Landscape -->
-                        <div class="row justify-content-between align-items-start mil-mb-60">
                             <div class="col-lg-4">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=zqm9Zs4BBLk">
+                                <a href="https://www.instagram.com/hyattregencykathmandu" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
-                                            <img src="img/portfolio/videos/ANAND%20Group%20India.jpg" alt="ANAND Group India">
-                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Video</div>
-                                        </div>
-                                        <h4 class="mil-up">ANAND Group India</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <a href="/portfolio/simplilearn-purdue" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-15" data-value-2="0">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/flipbook/simplilearn_purdue-cover.jpg" alt="Simplilearn Purdue">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
-                                        </div>
-                                        <h4 class="mil-up">Simplilearn Purdue</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Row 3: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
-                                <a href="https://www.instagram.com/hyattregencykathmandu" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/social-media/Hyatt.jpg" alt="Hyatt Social Media">
+                                            <img src="img/portfolio/social-media/Hyatt.png" alt="Hyatt Social Media">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
@@ -147,8 +108,62 @@
                                     </div>
                                 </a>
                             </div>
+                        </div>
+
+                        <!-- Row 2: 2 Landscapes -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-6">
+                                <a href="https://www.instagram.com/andazdelhi" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-hori mil-up">
+                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
+                                            <img src="img/portfolio/social-media/Andaz.png" alt="Andaz Social Media">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">Social Media</div>
+                                        </div>
+                                        <h4 class="mil-up">Andaz Delhi</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=zqm9Zs4BBLk">
+                                    <div class="mil-cover-frame mil-hori mil-up">
+                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
+                                            <img src="img/portfolio/videos/Anand.png" alt="Anand Group">
+                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">Video</div>
+                                        </div>
+                                        <h4 class="mil-up">Anand Group</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 3: 3 Portraits -->
+                        <div class="row justify-content-between mil-mb-60">
                             <div class="col-lg-4">
-                                <a href="/portfolio/stem-brochure" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-20" data-value-2="0">
+                                <a href="/portfolio/simplilearn-purdue" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/flipbook/simplilearn_purdue-cover.png" alt="Simplilearn Purdue">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
+                                        </div>
+                                        <h4 class="mil-up">Simplilearn Purdue</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="/portfolio/stem-brochure" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
                                             <img src="img/portfolio/flipbook/stem-brochure-cover.jpg" alt="STEM Brochure">
@@ -162,30 +177,30 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
-
-                        <!-- Row 4: Portrait + Landscape -->
-                        <div class="row justify-content-between align-items-start mil-mb-60">
                             <div class="col-lg-4">
-                                <a href="https://credlix.com" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
+                                <a href="/portfolio/pinkshie" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
-                                            <img src="img/portfolio/ui-ux/Credlix.jpg" alt="Credlix UI/UX">
+                                            <img src="img/portfolio/flipbook/pinkshie-cover.png" alt="Pinkshie">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
                                         <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">UI/UX</div>
+                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
                                         </div>
-                                        <h4 class="mil-up">Credlix</h4>
+                                        <h4 class="mil-up">Pinkshie</h4>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-7">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="https://www.youtube.com/watch?v=UsAjoaNQvuA" data-value-1="-15" data-value-2="0">
+                        </div>
+
+                        <!-- Row 4: 2 Landscapes -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-6">
+                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=UsAjoaNQvuA">
                                     <div class="mil-cover-frame mil-hori mil-up">
                                         <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/videos/HCL%20Tech.jpg" alt="HCL Tech">
+                                            <img src="img/portfolio/videos/HCL.png" alt="HCL Tech">
                                             <div class="mil-play-icon"><i class="fas fa-play"></i></div>
                                         </div>
                                     </div>
@@ -197,15 +212,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Row 5: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
+                            <div class="col-lg-6">
                                 <a href="/portfolio/cho-flipbook" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-hori mil-up">
                                         <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/flipbook/flipbook-for-community-health-officers-cover.jpg" alt="CHO Flipbook">
+                                            <img src="img/portfolio/flipbook/cho-cover.png" alt="CHO Flipbook">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
@@ -216,11 +227,64 @@
                                     </div>
                                 </a>
                             </div>
+                        </div>
+
+                        <!-- Row 5: 3 Portraits -->
+                        <div class="row justify-content-between mil-mb-60">
                             <div class="col-lg-4">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="https://www.youtube.com/watch?v=Oks5IU9Q4dA" data-value-1="-20" data-value-2="0">
+                                <a href="https://queuniverse.com/" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
-                                            <img src="img/portfolio/videos/Lotus%20Botanicals.jpg" alt="Lotus Botanicals">
+                                            <img src="img/portfolio/ui-ux/QUE.png" alt="QUE UI/UX">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">UI/UX</div>
+                                        </div>
+                                        <h4 class="mil-up">QUE</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://www.figma.com/proto/61q5wJartg9iWzMPlTs9d1/Injection-Care-Demo?page-id=0%3A1&node-id=1-1897&viewport=866%2C517%2C0.03&t=E7b78SV2eNuIjZ93-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A14" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/ui-ux/InjectionCare.png" alt="Injection Care">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">UI/UX</div>
+                                        </div>
+                                        <h4 class="mil-up">Injection.care</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="/portfolio/simplilearn-azure" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/flipbook/simplilearn-azure-cover.png" alt="Simplilearn Azure">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
+                                        </div>
+                                        <h4 class="mil-up">Simplilearn Azure</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Row 6: 2 Landscapes -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-6">
+                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=Oks5IU9Q4dA">
+                                    <div class="mil-cover-frame mil-hori mil-up">
+                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
+                                            <img src="img/portfolio/videos/Lotus.png" alt="Lotus Botanicals">
                                             <div class="mil-play-icon"><i class="fas fa-play"></i></div>
                                         </div>
                                     </div>
@@ -232,27 +296,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Row 6: Portrait + Landscape -->
-                        <div class="row justify-content-between align-items-start mil-mb-60">
-                            <div class="col-lg-4">
-                                <a href="/portfolio/pinkshie" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-vert mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/portfolio/flipbook/pinkshie-cover.jpg" alt="Pinkshie">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
-                                        </div>
-                                        <h4 class="mil-up">Pinkshie</h4>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-lg-7">
-                                <a href="/portfolio/pgi-dental" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-15" data-value-2="0">
+                            <div class="col-lg-6">
+                                <a href="/portfolio/pgi-dental" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-hori mil-up">
                                         <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
                                             <img src="img/portfolio/flipbook/pgi-flipbook-(dental)-cover.jpg" alt="PGI Flipbook Dental">
@@ -268,83 +313,62 @@
                             </div>
                         </div>
 
-                        <!-- Row 7: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
-                                <a href="#" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/ui-ux/Bardez.jpg" alt="Bardez UI/UX">
+                        <!-- Row 7: 3 Portraits -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-4">
+                                <a href="/portfolio/ful" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/flipbook/ful-cover.png" alt="FUL Content Booklet">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                        <div class="mil-labels mil-up mil-mb-15">
+                                            <div class="mil-label mil-upper mil-accent">Brochure</div>
+                                        </div>
+                                        <h4 class="mil-up">FUL</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="https://alokmasterbatches.com/" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert mil-up">
+                                        <div class="mil-cover">
+                                            <img src="img/portfolio/ui-ux/AlokMasterbatches.png" alt="Alok Masterbatches">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
                                         <div class="mil-labels mil-up mil-mb-15">
                                             <div class="mil-label mil-upper mil-accent">UI/UX</div>
                                         </div>
-                                        <h4 class="mil-up">Bardez</h4>
+                                        <h4 class="mil-up">Alok Masterbatches</h4>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-lg-4">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="" data-value-1="-20" data-value-2="0">
+                                <a href="https://fluidlinehydro.in/" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-vert mil-up">
                                         <div class="mil-cover">
-                                            <img src="img/portfolio/videos/Xiaomi%20India.jpg" alt="Xiaomi India">
-                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Video</div>
-                                        </div>
-                                        <h4 class="mil-up">Xiaomi India</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Row 8: Landscape -->
-                        <div class="row justify-content-between align-items-start mil-mb-60">
-                            <div class="col-lg-7">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="" data-value-1="-15" data-value-2="0">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/videos/NHIDCL%20Inception%20Day.jpg" alt="NHIDCL Inception Day">
-                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Video</div>
-                                        </div>
-                                        <h4 class="mil-up">NHIDCL Inception Day</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Row 9: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
-                                <a href="#" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/ui-ux/QUE.jpg" alt="QUE UI/UX">
+                                            <img src="img/portfolio/ui-ux/FluidlineHydro.png" alt="Fluidline Hydro">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
                                         <div class="mil-labels mil-up mil-mb-15">
                                             <div class="mil-label mil-upper mil-accent">UI/UX</div>
                                         </div>
-                                        <h4 class="mil-up">QUE</h4>
+                                        <h4 class="mil-up">Fluidline Hydro</h4>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="" data-value-1="-20" data-value-2="0">
-                                    <div class="mil-cover-frame mil-vert mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/portfolio/videos/Vehicle%20Scrapping%20Policy.jpg" alt="Vehicle Scrapping Policy">
+                        </div>
+
+                        <!-- Row 8: 2 Landscapes -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-6">
+                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=Cqxx0xtjpRg">
+                                    <div class="mil-cover-frame mil-hori mil-up">
+                                        <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
+                                            <img src="img/portfolio/videos/VehicleScrapping.png" alt="Vehicle Scrapping Policy">
                                             <div class="mil-play-icon"><i class="fas fa-play"></i></div>
                                         </div>
                                     </div>
@@ -356,31 +380,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Row 10: Portrait + Landscape -->
-                        <div class="row justify-content-between align-items-start mil-mb-60">
-                            <div class="col-lg-4">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="" data-value-1="-20" data-value-2="0">
-                                    <div class="mil-cover-frame mil-vert mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/portfolio/videos/Yellowai.jpg" alt="Yellow.ai">
-                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Video</div>
-                                        </div>
-                                        <h4 class="mil-up">Yellow.ai</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-parallax mil-mb-60" data-video="" data-value-1="-15" data-value-2="0">
+                            <div class="col-lg-6">
+                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="https://www.youtube.com/watch?v=18CnPIbhqOg">
                                     <div class="mil-cover-frame mil-hori mil-up">
                                         <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/videos/International%20solar%20alliance.jpg" alt="International Solar Alliance">
+                                            <img src="img/portfolio/videos/ISA.png" alt="International Solar Alliance">
                                             <div class="mil-play-icon"><i class="fas fa-play"></i></div>
                                         </div>
                                     </div>
@@ -394,36 +398,20 @@
                             </div>
                         </div>
 
-                        <!-- Row 11: Landscape + Portrait -->
-                        <div class="row justify-content-between align-items-end mil-mb-60">
-                            <div class="col-lg-7">
-                                <div class="mil-portfolio-item mil-more mil-video-trigger mil-mb-60" data-video="" data-value-1="-15" data-value-2="0">
+                        <!-- Row 9: 1 Landscape -->
+                        <div class="row justify-content-between mil-mb-60">
+                            <div class="col-lg-6">
+                                <a href="https://www.figma.com/proto/jUaVU1FE8wRmxG47fFobgD/Cotton-2-Catwalk-Base?page-id=1%3A6&node-id=63-2&p=f&viewport=657%2C400%2C0.02&t=2UTeMd8YUX1SIZU0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=63%3A2&show-proto-sidebar=1" target="_blank" class="mil-portfolio-item mil-more mil-mb-60">
                                     <div class="mil-cover-frame mil-hori mil-up">
                                         <div class="mil-cover mil-scale" data-value-1="1.1" data-value-2="1">
-                                            <img src="img/portfolio/videos/The%20International%20Solar%20Alliance.jpg" alt="The International Solar Alliance">
-                                            <div class="mil-play-icon"><i class="fas fa-play"></i></div>
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Video</div>
-                                        </div>
-                                        <h4 class="mil-up">The International Solar Alliance</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <a href="#" target="_blank" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-20" data-value-2="0">
-                                    <div class="mil-cover-frame mil-vert mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/portfolio/ui-ux/Injection.care.jpg" alt="Injection.care">
+                                            <img src="img/portfolio/ui-ux/Cotton2Catwalk.png" alt="Cotton2Catwalk">
                                         </div>
                                     </div>
                                     <div class="mil-descr">
                                         <div class="mil-labels mil-up mil-mb-15">
                                             <div class="mil-label mil-upper mil-accent">UI/UX</div>
                                         </div>
-                                        <h4 class="mil-up">Injection.care</h4>
+                                        <h4 class="mil-up">Cotton2Catwalk</h4>
                                     </div>
                                 </a>
                             </div>

@@ -69,8 +69,8 @@
                         <div class="swiper mil-flipbook-slider">
                             <div class="swiper-wrapper">
                                 <?php
-                                $folder = '../img/portfolio/flipbook/simplilearn_purdue/';
-                                $images = glob($folder . '*.jpg');
+                                $folder = '../img/portfolio/flipbook/simplilearn-purdue/';
+                                $images = glob($folder . '*.png');
                                 natsort($images);
                                 foreach ($images as $index => $image) {
                                     $num = $index + 1;
@@ -87,6 +87,10 @@
                     </div>
                 </section>
                 <!-- flipbook end -->
+
+                <?php require_once("../includes/reviews.php") ?>
+
+                <?php require_once("../includes/partners.php") ?>
 
                 <?php require_once("../includes/footermenu.php") ?>
 

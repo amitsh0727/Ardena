@@ -257,6 +257,10 @@
 
                 <?php require_once("../includes/subservices.php") ?>
 
+                <?php require_once("../includes/reviews.php") ?>
+
+                <?php require_once("../includes/partners.php") ?>
+
                 <?php require_once("../includes/footermenu.php") ?>
 
                 <!-- hidden elements -->

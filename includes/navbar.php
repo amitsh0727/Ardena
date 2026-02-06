@@ -8,7 +8,7 @@
 <div class="mil-menu-frame">
     <!-- frame clone -->
     <div class="mil-frame-top ">
-        <a href="index.php" class="mil-logo">ARDENA.</a>
+        <a href="/" class="mil-logo">ARDENA.</a>
         <div class="mil-menu-btn">
             <span></span>
         </div>
@@ -94,6 +94,9 @@
                             </li>
                             <li class="mil-has-children">
                                 <a href="/contact-us">Contact</a>
+                            </li>
+                            <li class="mil-has-children">
+                                <a href="/marketing-assessment" class="mil-accent">Free Assessment</a>
                             </li>
                         </ul>
                     </nav>

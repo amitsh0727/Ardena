@@ -1,0 +1,19 @@
+{
+  "blogs": [
+    {
+      "id": "sample-blog-post",
+      "title": "Welcome to Ardena Journal",
+      "slug": "welcome-to-ardena-journal",
+      "excerpt": "Discover insights, trends, and strategies in digital marketing, branding, and web development from the Ardena team.",
+      "content": "<p>Welcome to the Ardena Journal! This is where we share our insights, industry trends, and expert strategies in digital marketing, branding, UI/UX design, and web development.</p><p>Stay tuned for valuable content that will help you grow your business and stay ahead in the digital landscape.</p>",
+      "author": "Ardena Team",
+      "category": "General",
+      "tags": ["marketing", "branding", "digital"],
+      "featured_image": "/img/blog/default.jpg",
+      "published_date": "2026-02-06",
+      "status": "published",
+      "meta_title": "Welcome to Ardena Journal | Ardena",
+      "meta_description": "Discover insights, trends, and strategies in digital marketing, branding, and web development from the Ardena team."
+    }
+  ]
+}

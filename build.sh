@@ -18,6 +18,8 @@ PAGES=(
     "industries.php:industries.html"
     "portfolios.php:portfolios.html"
     "blog.php:blog.html"
+    "blog-post.php:blog-post.html"
+    "marketing-assessment.php:marketing-assessment.html"
     "careers.php:careers.html"
     "privacy-policy.php:privacy-policy.html"
     "terms-and-conditions.php:terms-and-conditions.html"
@@ -74,6 +76,8 @@ echo "Copying static assets..."
 cp -r css dist/
 cp -r js dist/
 cp -r img dist/
+cp -r content dist/
+cp -r api dist/
 
 # Kill PHP server
 kill $PHP_PID 2>/dev/null

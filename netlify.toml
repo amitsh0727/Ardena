@@ -27,6 +27,16 @@
   status = 200
 
 [[redirects]]
+  from = "/blog-post"
+  to = "/blog-post.html"
+  status = 200
+
+[[redirects]]
+  from = "/marketing-assessment"
+  to = "/marketing-assessment.html"
+  status = 200
+
+[[redirects]]
   from = "/careers"
   to = "/careers.html"
   status = 200

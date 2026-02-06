@@ -29,7 +29,7 @@
                     <form name="callback" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="mil-subscribe-form mil-up">
                         <input type="hidden" name="form-name" value="callback">
                         <input type="text" name="phone" placeholder="Enter your Number" required>
-                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
+                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place" aria-label="Submit phone number"></button>
                     </form>
 
                 </div>
@@ -56,6 +56,9 @@
                                     </li>
                                     <li class="mil-up">
                                         <a href="/blog">Journal</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="/marketing-assessment">Free Assessment</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -102,8 +105,8 @@
                     <div class="mil-vert-between">
                         <div class="mil-mb-30">
                             <ul class="mil-social-icons mil-up">
-                                <li><a href="https://www.linkedin.com/company/ardena-technologies/" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://wa.me/918178237744" target="_blank" class="social-icon"> <i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/ardena-technologies/" target="_blank" class="social-icon" aria-label="LinkedIn"> <i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://wa.me/918178237744" target="_blank" class="social-icon" aria-label="WhatsApp"> <i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <p class="mil-light-soft mil-up">© Copyright 2026 - Ardena. All Rights Reserved.</p>
