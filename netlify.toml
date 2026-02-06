@@ -1,6 +1,5 @@
 [build]
-  command = "apt-get update -qq && apt-get install -y -qq php-cli && chmod +x build.sh && bash build.sh"
-  publish = "dist"
+  publish = "."
 
 [[redirects]]
   from = "/contact-us"
